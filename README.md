@@ -79,7 +79,7 @@ snake-and-ladder/
 
 ## Author
 
-**[Your Name]**
+**Ved Bhattathiripad**
 CMPSC 132 – Spring 2026
 Pennsylvania State University
 
