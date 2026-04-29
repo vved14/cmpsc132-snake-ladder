@@ -4,8 +4,7 @@ CMPSC 132 - Final Project
  
 A multi-player Snake and Ladder game with classic rules.
 All data structures (Queue, Stack) and the sorting algorithm are
-implemented manually from scratch -- no imports from collections
-or use of sorted().
+implemented manually from scratch, no imports from collections.
 """
  
 import random
@@ -155,7 +154,7 @@ class GamePlayer:
  
  
 class MovingEntity:
-    """Base class for snakes and ladders -- anything that moves a player."""
+    """Base class for snakes and ladders, anything that moves a player."""
  
     def __init__(self, start_pos, end_pos, description="Entity"):
         self.start_pos = start_pos
@@ -324,7 +323,7 @@ class Game:
         return result
  
     def play(self):
-        """The main game loop -- no break or continue, only flag-based control."""
+        """The main game loop"""
         print("=" * 50)
         print("       SNAKE AND LADDER GAME")
         print("=" * 50)
